@@ -25,6 +25,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "royalcms": {
+            "providers": [
+                "Royalcms\\Component\\Error\\ErrorServiceProvider"
+            ],
+            "aliases": {
+                "RC_Error": "Royalcms\\Component\\Error\\Facades\\Error"
+            }
         }
     },
     "minimum-stability": "dev"
