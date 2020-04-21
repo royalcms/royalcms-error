@@ -28,7 +28,6 @@ class ErrorServiceProvider extends ServiceProvider {
 
         return [
             $dir . '/Error.php',
-            $dir . '/ErrorDisplay.php',
             $dir . '/ErrorServiceProvider.php',
             $dir . '/Facades/Error.php',
         ];
